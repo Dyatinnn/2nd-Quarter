@@ -5,13 +5,13 @@
     <style>
        
             body {
-  background-image: url("https://i.pinimg.com/736x/54/71/f5/5471f54d8c820fa72818f680d9489374.jpg");
+  background-image: url("https://img.freepik.com/premium-photo/blue-mountain_1892-20.jpg?w=2000");
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
 }
 div.ex1 {
-  width: 500px;
+  width: 1000px;
   margin: auto;
   border: 3px solid #73AD21;
 }
@@ -23,6 +23,12 @@ div.ex2 {
 }
 h2 {
   border: 2px solid rgba(0, 0, 0, 0.048);
+  margin: auto;  
+  padding: 10px;
+  text-align: center;
+}
+h3 {
+  border: 2px solid rgb(0, 128, 107)
   margin: auto;  
   padding: 10px;
   text-align: center;
@@ -40,12 +46,16 @@ div {
 </head>
 <body>
     
-<h2>Justine Paolo B. Cao</h2>
-
 <div class="ex1"><p style="color:red;">Holidays</p</div>
 <br>
 
-<img src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t31.18172-8/15936615_1843876012519766_5559634192524991769_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFbRjpDN54CNXApF2j5Bl5zFXWLIYOBnSMVdYshg4GdI_u_edtTtpWuwiX09NnGmo9enJQmSC1wjWQpSEII__ES&_nc_ohc=zehARga1iK8AX8QA8MQ&_nc_ht=scontent.fmnl8-2.fna&oh=00_AfDt8RhcatLaI5-p5zCNR6kge217dvvo962IewcFVraZew&oe=63E2D44E" width="500">
-<br>
 
-  <img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t1.15752-9/320932387_721596829176047_6130828002742529294_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGJMg-PA9oVEvY3fZ6O-KjHVO9BglXGRflU70GCVcZF-bzoUHceMaSG-0WqMJaiVo6P0NQQG6ixEG4qEpfJMcGq&_nc_ohc=sM7MyoY6-JUAX9Z-Dx3&_nc_ht=scontent.fmnl8-3.fna&oh=03_AdR1vBbm-C3sXqDXujQm3PKThiVIxXVmhArRqjn6s9QntQ&oe=63E2B10A" width="300">
+<img src="https://scontent.fmnl9-3.fna.fbcdn.net/v/t1.15752-9/323972032_874175513916642_3338126676702730259_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGdagwGm3k3uOklHn6mOykfyzV_p3wX_IHLNX-nfBf8gSiCZXGwQEO1QcA4wsGF7wYnp8cDMtbWTUywcRtLX40K&_nc_ohc=Sd_q6F6ANxQAX_Ti5wE&_nc_ht=scontent.fmnl9-3.fna&oh=03_AdTp5hjF1xBSUAJcwvWNfjnkKEPlgI_7CztobSbRawTVOg&oe=63E41043" width="300">
+<img src="https://scontent.fmnl9-3.fna.fbcdn.net/v/t1.15752-9/324526403_870545920855995_302819206980742063_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGkCiMxsCWTaPy4M7fI9eFD1VvXUOFWnQzVW9dQ4VadDED_ajmXReZycYy1pkQrKI37NLU6rYukxKfT-FObwCh5&_nc_ohc=bUEnSzkuXuYAX8gOt1B&_nc_ht=scontent.fmnl9-3.fna&oh=03_AdS_czylCUblRCvol_wv6J2A90P9WylHfcdXb1VArQ_7kg&oe=63E3F783" width="300">
+<img src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t1.15752-9/324075434_2258887637625554_2677693079632754947_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFaZVq7f3EIha9IcdvFKFiCW2FROJyvjThbYVE4nK-NOIC1tx0Lmb5812EL-LGWmUhROkc0IzAx8fmzmuxF-s_r&_nc_ohc=Lwilcvg7Ng8AX_I428I&tn=ZpHXFwXXiogX1juD&_nc_ht=scontent.fmnl9-2.fna&oh=03_AdS_QVS62AZ9TR9SjH9yAVDmdiHYbut5D-QNvO19zy5Mmg&oe=63E3F1D8" width="300">
+<img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t1.15752-9/320932387_721596829176047_6130828002742529294_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGJMg-PA9oVEvY3fZ6O-KjHVO9BglXGRflU70GCVcZF-bzoUHceMaSG-0WqMJaiVo6P0NQQG6ixEG4qEpfJMcGq&_nc_ohc=sM7MyoY6-JUAX9Z-Dx3&_nc_ht=scontent.fmnl8-3.fna&oh=03_AdR1vBbm-C3sXqDXujQm3PKThiVIxXVmhArRqjn6s9QntQ&oe=63E2B10A" width="300">
+<br>
+<div class="div2">
+<h3>A holiday is a day or other period of time set aside for festivals or recreation. Public holidays are set by public authorities and vary by state or region. Religious holidays are set by religious organisations for their members and are often also observed as public holidays in religious majority countries. Some religious holidays such as Christmas have become or are becoming secularised by part or all of those who observe it. In addition to secularisation, many holidays have become commercialised due to the growth of industry.</h3>
+<img src="https://blog.aweber.com/wp-content/uploads/2015/12/Happy-Holidays.gif">
+</div>
