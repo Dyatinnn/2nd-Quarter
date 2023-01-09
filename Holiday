@@ -26,6 +26,11 @@ h2 {
   margin: auto;  
   padding: 10px;
   text-align: center;
+  width: 200px;
+  height: 60px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: rgb(51, 255, 0); 
 }
 h3 {
   border: 2px solid rgb(0, 128, 107)
@@ -39,9 +44,27 @@ div {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-image: url("");
   position: static;
-  border: 3px solid #73AD21;
+  border: 3px solid #73AD21; 
 }
-
+p {
+  background-color: yellow;
+}
+.div2 {
+  text-align: center; 
+  font-size: xx-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url("");
+  position: static;background-color: aliceblue;
+  border: 3px solid #73AD21;
+  background-color: coral;
+  width: 1000px;
+  height: 500px;
+  border: 1px solid black;
+  overflow: auto;
+}
+.img2 {
+    float: left;
+}
   </style>
 </head>
 <body>
@@ -56,6 +79,17 @@ div {
 <img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t1.15752-9/320932387_721596829176047_6130828002742529294_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGJMg-PA9oVEvY3fZ6O-KjHVO9BglXGRflU70GCVcZF-bzoUHceMaSG-0WqMJaiVo6P0NQQG6ixEG4qEpfJMcGq&_nc_ohc=sM7MyoY6-JUAX9Z-Dx3&_nc_ht=scontent.fmnl8-3.fna&oh=03_AdR1vBbm-C3sXqDXujQm3PKThiVIxXVmhArRqjn6s9QntQ&oe=63E2B10A" width="300">
 <br>
 <div class="div2">
-<h3>A holiday is a day or other period of time set aside for festivals or recreation. Public holidays are set by public authorities and vary by state or region. Religious holidays are set by religious organisations for their members and are often also observed as public holidays in religious majority countries. Some religious holidays such as Christmas have become or are becoming secularised by part or all of those who observe it. In addition to secularisation, many holidays have become commercialised due to the growth of industry.</h3>
-<img src="https://blog.aweber.com/wp-content/uploads/2015/12/Happy-Holidays.gif">
+<h3></h3>
+<img src="https://scontent.fmnl9-3.fna.fbcdn.net/v/t1.15752-9/324219598_730651671533515_8323398336036583007_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFAU3houCF1dpf7l8wnThjymqTYKfqNdW-apNgp-o11b5e48xqD6SilFNJxTDrKA_Yn_DaYIjnsoAvH94r9O1yN&_nc_ohc=WgwZ8Zd1Wa8AX_EeI-S&_nc_ht=scontent.fmnl9-3.fna&oh=03_AdRjcT_2U8jH2p4XGx9uOAdUwuiXxPQpD1avu3V2ERXzDw&oe=63E3E95B" height="700">
+
+  </style>
+  </head>
+  <body>
+  
+  <h2>Holiday</h2>
+  
+  <p>My holiday is to spend time with my family, have a happy new year. There's nothing quite like spending the holidays with your family. Whether it's decorating the Christmas tree, playing board games by the fireplace, or going on a winter hike, there are so many activities to enjoy and memories to be made. One of my favorite things about the holidays is the chance to catch up with my loved ones and create new traditions together. From baking cookies to watching holiday movies, there's something special about being able to relax and enjoy each other's company during this festive time of year. Whether you're with your immediate family or extended relatives, there's no place like home during the holidays.</p>
+  
+  
 </div>
+
