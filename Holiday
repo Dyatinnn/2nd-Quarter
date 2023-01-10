@@ -33,7 +33,7 @@ h2 {
   background-color: rgb(51, 255, 0); 
 }
 h3 {
-  border: 2px solid rgb(0, 128, 107)
+  border: 2px solid rgb(0, 128, 107);
   margin: auto;  
   padding: 10px;
   text-align: center;
@@ -49,6 +49,15 @@ div {
 p {
   background-color: yellow;
 }
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+p::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
 .div2 {
   text-align: center; 
   font-size: xx-large;
@@ -62,21 +71,145 @@ p {
   border: 1px solid black;
   overflow: auto;
 }
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 .img2 {
     float: left;
+}
+img:hover {
+  opacity: 0.5;
+}ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+ul {
+    list-style-type: none;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.w3-white, .w3-hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important;
+}
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #000!important;
+    background-color: #f1f1f1!important;
 }
   </style>
 </head>
 <body>
     
-<div class="ex1"><p style="color:red;">Holidays</p</div>
+<div class="ex1"><p style="color:red;">My 2023</p</div>
 <br>
+<div class="right" id="Family"></div>
 
 
-<img src="https://scontent.fmnl9-3.fna.fbcdn.net/v/t1.15752-9/323972032_874175513916642_3338126676702730259_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGdagwGm3k3uOklHn6mOykfyzV_p3wX_IHLNX-nfBf8gSiCZXGwQEO1QcA4wsGF7wYnp8cDMtbWTUywcRtLX40K&_nc_ohc=Sd_q6F6ANxQAX_Ti5wE&_nc_ht=scontent.fmnl9-3.fna&oh=03_AdTp5hjF1xBSUAJcwvWNfjnkKEPlgI_7CztobSbRawTVOg&oe=63E41043" width="300">
-<img src="https://scontent.fmnl9-3.fna.fbcdn.net/v/t1.15752-9/324526403_870545920855995_302819206980742063_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGkCiMxsCWTaPy4M7fI9eFD1VvXUOFWnQzVW9dQ4VadDED_ajmXReZycYy1pkQrKI37NLU6rYukxKfT-FObwCh5&_nc_ohc=bUEnSzkuXuYAX8gOt1B&_nc_ht=scontent.fmnl9-3.fna&oh=03_AdS_czylCUblRCvol_wv6J2A90P9WylHfcdXb1VArQ_7kg&oe=63E3F783" width="300">
-<img src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t1.15752-9/324075434_2258887637625554_2677693079632754947_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFaZVq7f3EIha9IcdvFKFiCW2FROJyvjThbYVE4nK-NOIC1tx0Lmb5812EL-LGWmUhROkc0IzAx8fmzmuxF-s_r&_nc_ohc=Lwilcvg7Ng8AX_I428I&tn=ZpHXFwXXiogX1juD&_nc_ht=scontent.fmnl9-2.fna&oh=03_AdS_QVS62AZ9TR9SjH9yAVDmdiHYbut5D-QNvO19zy5Mmg&oe=63E3F1D8" width="300">
-<img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t1.15752-9/320932387_721596829176047_6130828002742529294_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGJMg-PA9oVEvY3fZ6O-KjHVO9BglXGRflU70GCVcZF-bzoUHceMaSG-0WqMJaiVo6P0NQQG6ixEG4qEpfJMcGq&_nc_ohc=sM7MyoY6-JUAX9Z-Dx3&_nc_ht=scontent.fmnl8-3.fna&oh=03_AdR1vBbm-C3sXqDXujQm3PKThiVIxXVmhArRqjn6s9QntQ&oe=63E2B10A" width="300">
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="https://scontent.fmnl9-3.fna.fbcdn.net/v/t1.15752-9/323972032_874175513916642_3338126676702730259_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGdagwGm3k3uOklHn6mOykfyzV_p3wX_IHLNX-nfBf8gSiCZXGwQEO1QcA4wsGF7wYnp8cDMtbWTUywcRtLX40K&_nc_ohc=Sd_q6F6ANxQAX_Ti5wE&_nc_ht=scontent.fmnl9-3.fna&oh=03_AdTp5hjF1xBSUAJcwvWNfjnkKEPlgI_7CztobSbRawTVOg&oe=63E41043" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">2023</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t1.15752-9/324075434_2258887637625554_2677693079632754947_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFaZVq7f3EIha9IcdvFKFiCW2FROJyvjThbYVE4nK-NOIC1tx0Lmb5812EL-LGWmUhROkc0IzAx8fmzmuxF-s_r&_nc_ohc=Lwilcvg7Ng8AX_I428I&tn=ZpHXFwXXiogX1juD&_nc_ht=scontent.fmnl9-2.fna&oh=03_AdS_QVS62AZ9TR9SjH9yAVDmdiHYbut5D-QNvO19zy5Mmg&oe=63E3F1D8" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">2023</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="https://scontent.fmnl9-3.fna.fbcdn.net/v/t1.15752-9/324526403_870545920855995_302819206980742063_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGkCiMxsCWTaPy4M7fI9eFD1VvXUOFWnQzVW9dQ4VadDED_ajmXReZycYy1pkQrKI37NLU6rYukxKfT-FObwCh5&_nc_ohc=bUEnSzkuXuYAX8gOt1B&_nc_ht=scontent.fmnl9-3.fna&oh=03_AdS_czylCUblRCvol_wv6J2A90P9WylHfcdXb1VArQ_7kg&oe=63E3F783" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Cao Family</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t1.15752-9/324075434_2258887637625554_2677693079632754947_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFaZVq7f3EIha9IcdvFKFiCW2FROJyvjThbYVE4nK-NOIC1tx0Lmb5812EL-LGWmUhROkc0IzAx8fmzmuxF-s_r&_nc_ohc=Lwilcvg7Ng8AX_I428I&tn=ZpHXFwXXiogX1juD&_nc_ht=scontent.fmnl9-2.fna&oh=03_AdS_QVS62AZ9TR9SjH9yAVDmdiHYbut5D-QNvO19zy5Mmg&oe=63E3F1D8" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">2023</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t1.15752-9/320932387_721596829176047_6130828002742529294_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGJMg-PA9oVEvY3fZ6O-KjHVO9BglXGRflU70GCVcZF-bzoUHceMaSG-0WqMJaiVo6P0NQQG6ixEG4qEpfJMcGq&_nc_ohc=sM7MyoY6-JUAX9Z-Dx3&_nc_ht=scontent.fmnl8-3.fna&oh=03_AdR1vBbm-C3sXqDXujQm3PKThiVIxXVmhArRqjn6s9QntQ&oe=63E2B10A" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">2023</div>
+</div>
+
+<img src="" width="300">
+<img src="" width="300">
+<img src="" width="300">
 <br>
 <div class="div2">
 <h3></h3>
@@ -89,7 +222,23 @@ p {
   <h2>Holiday</h2>
   
   <p>My holiday is to spend time with my family, have a happy new year. There's nothing quite like spending the holidays with your family. Whether it's decorating the Christmas tree, playing board games by the fireplace, or going on a winter hike, there are so many activities to enjoy and memories to be made. One of my favorite things about the holidays is the chance to catch up with my loved ones and create new traditions together. From baking cookies to watching holiday movies, there's something special about being able to relax and enjoy each other's company during this festive time of year. Whether you're with your immediate family or extended relatives, there's no place like home during the holidays.</p>
-  
-  
+  <ul>
+        
+      <a target="_blank" href="https://www.merriam-webster.com/dictionary/family">"FAMILY"</a>
+      <br>
+      <button type="button" onclick="alert('Family is Love, Just Love<3 ')">Click Me!</button>
+      <br>  
+      <br>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="https://www.leagueoflegends.com/en-ph/">Link 1</a>
+  <a href="https://playvalorant.com/en-us/">Link 2</a>
+  <a href="https://teamfighttactics.leagueoflegends.com/en-ph/">Link 3</a>
+  </div>
+</div>
 </div>
 
+
+</style>
+</head>
