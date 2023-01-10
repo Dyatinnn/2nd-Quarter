@@ -869,23 +869,24 @@ nav .icon-links {
 
                     <div class="product-wrap">
                         <div class="product-img">
-                            <img src="" alt="img">
+                            <img src="https://fr.shopping.rakuten.com/photo/1995919867_ML.jpg?fbclid=IwAR13Nq8clwcwEg0b9LMYCd7wymqb3OFVVmbu_ZoX9GzUy_OhiWvBHEjDFpM" alt="img">
                         </div>
 
                         <div class="product-icons">
                             <div class="add-to-favorite"><span class="icon-heart"></span></div>
-                            <p><span class="discount">26</span>% off</p>
+                            <p><span class="discount">0</span>% off</p>
                         </div>
 
                         <div class="product-description">
-                            <p class="product-name">iphone 69 pro</p>
+                            <p class="product-name">iPhone 14 Pro Max 1TB</p>
                             <p class="price">
                                 <strong>Price:</strong>
                                 <del>
-                                    <span class="f-product-price">160</span>Php
+                                    <span class="f-product-price">₱109,990.00</span>Php
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now 80Php</span>
+                                    <span class="f-cur-price">Now ₱100,000.00
+                                        </span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
