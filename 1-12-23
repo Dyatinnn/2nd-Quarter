@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model ni CAO</title>
+    <style>
+       
+            body {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/243/686/433/green-lakes-blissful-of-green-nature-lakes-hd-art-wallpaper-thumb.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+  font-family:'Franklin Gothic Medium';
+}
+
+h1 {
+  border: 2px solid rgba(0, 0, 0, 0.048);
+  margin: auto;  
+  padding: 10px;
+  text-align: center;
+  font-size: 88px;
+  color: burlywood;
+  font-family:Cambria;
+  text-shadow: 2px 2px rgba(19, 1, 1, 0.774);
+
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.842);
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+  font-size: 44px;
+  background-color: rgba(211, 211, 211, 0.267);
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.432);
+}
+
+
+h3 {
+    color: rgba(0, 0, 0, 0.842);
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+  font-size: 44px;
+  background-color: rgba(211, 211, 211, 0.267);
+  text-shadow: 2px 2px rgba(124, 4, 4, 0.747);
+}
+
+p {
+    color: rgb(0, 0, 0);
+font-size:22px;
+  margin: 100px;  
+  padding: 150px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.589);
+  text-shadow: 2px 2px rgba(61, 61, 61, 0.295);
+
+}
+h4 {
+    color: rgba(124, 4, 4, 0.747);
+  font-size: 22px;
+  margin:50px;
+  padding:45px;
+  background: rgba(255, 255, 255, 0.589);
+  text-shadow: 2px 2px rgba(61, 61, 61, 0.295);
+}
+h4.outset {outline-style: outset;
+    background-image: url("https://www-cdn.eumetsat.int/files/styles/16_9_large/s3/2022-07/cirrus_clouds_aspot_AdobeStock.jpg?h=d1cb525d&itok=EzXtlBkL");
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  color: black;
+}
+p.outset {outline-style: outset;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/695/523/611/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+footer {
+    color: rgb(0, 0, 0);
+font-size:22px;
+  margin: 2px;  
+  padding: 5px;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 2px 2px rgba(15, 13, 13, 0.514);
+  background: rgba(211, 211, 211, 0.267);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 195, 255);
+  font-size: 50px;
+}
+
+        /* unvisited link */
+a:link {
+  color: rgb(0, 195, 255);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 195, 255);
+}
+
+/* mouse over link */
+a:hover {
+  color: purple;
+}
+
+/* selected link */
+a:active {
+  color: purple;
+}
+
+nav {
+color:rgb(226, 233, 214);
+position: fixed;
+bottom: 0;
+width: 100%;
+overflow: auto;
+
+}
+    
+.nav {
+float:center;
+text-align:center;
+padding:10px;
+text-decoration:none;
+font-size:14px;
+}
+ nav a:link, nav a:visited {
+ color:rgb(226, 233, 214);
+ background-color:rgba(0, 0, 0, 0.404);
+}
+
+ nav a:hover, nav a:active {
+ color:rgb(226, 233, 214);
+background-color:rgb(0, 0, 0);
+}
+
+@media (max-width: 600px) {
+.right, .left {
+width: 100%;
+height: auto;
+} 
+                
+ .nav {
+font-size:18px;
+}
+}
+
+ul{
+          color: rgb(134, 231, 22);
+          background-color: rgba(241, 146, 56, 0.322);
+          font-size:22px;
+          margin: 10px;  
+          padding: 30px;
+          text-align: center;
+          text-shadow: 2px 2px rgb(26, 25, 25);
+        
+        }
+    </style>
+     <ul>
+          </style>
+          <body>
+          
+          <table style="width:100%">
+            <tr>
+                <head>
+                    <div class="right" id="Family"></div>
+                    <h1>Current Trends in ICT <br>
+                        2022-2023</h1>
+                    </head>
+            </tr>
+            <tr>
+              <td><ul><a href="#Dog">1</a></ul></td>
+              <td><ul><a href="#Cat">ICT</a></ul></td>
+              <td><ul><a href="#Family">ICT</a></ul></td>
+              <td><ul><a href="#Family">ICT</a></ul></td>
+              <td><ul><a href="#Family">ICT</a></ul></td>
+            </tr>
+            <tr>
+            </tr>
+          </table>
+        <div class="right" id="SHORTCUT"></div>
+        
+       
+        
+        
+      </ul>
+    <head>
+        <div class="right" id="Dog"></div>
+        <h1>Artificial intelligence and machine learning</h1>
+        </head>
+        <body>
+            <h4 class="outset">Put in context, artificial intelligence refers to the general ability of computers to emulate human thought and perform tasks in real-world environments, while machine learning refers to the technologies and algorithms that enable systems to identify patterns, make decisions, and improve themselves through experience</h4>
+           
+                <p class="outset">I'm only child that's why I have no rival in luxury, be it toys, food or anything else. But it occurred to me that it's boring without a brother. Because I don't have friends, teased, or maybe I don't have a brother to help me with the housework because all the housework goes to me. but even though I'm an only child, I'm still happy because I'm brought by the happiness of the family, that's why I don't regret that I lived in this world.</p>     
+            <img src="https://64.media.tumblr.com/2f1ddea71e3e5dc5afeb8918d18e00d6/e972680612c2ed93-49/s1280x1920/9f8f4cb0d247453cdaf9cf5d640495a325f10d54.gif" width="500">
+            </div>
+    <head>
+        <div class="right" id="Cat"></div>
+        <h1>Artificial intelligence and machine learning</h1>
+        </head>       
+        <body>
+            <h4 class="outset">Put in context, artificial intelligence refers to the general ability of computers to emulate human thought and perform tasks in real-world environments, while machine learning refers to the technologies and algorithms that enable systems to identify patterns, make decisions, and improve themselves through experience</h4>
+           
+                <p class="outset">I'm only child that's why I have no rival in luxury, be it toys, food or anything else. But it occurred to me that it's boring without a brother. Because I don't have friends, teased, or maybe I don't have a brother to help me with the housework because all the housework goes to me. but even though I'm an only child, I'm still happy because I'm brought by the happiness of the family, that's why I don't regret that I lived in this world.</p>     
+            <img src="https://64.media.tumblr.com/2f1ddea71e3e5dc5afeb8918d18e00d6/e972680612c2ed93-49/s1280x1920/9f8f4cb0d247453cdaf9cf5d640495a325f10d54.gif" width="500">
+            </div>
+<br>
+                   <img src="https://media.tenor.com/DnY4rvDpLDwAAAAd/nileseyy-niles-disappear.gif" width="1000">
+
+                   <ul><a href="#">Go to Top</a></ul>
+
+<br>
+<br>
+            <form action="https://lol.garena.ph/">
+    <label for="fname">Email:</label><br>
+    <input type="text" id="fname" value=""><br><br>
+    <label for="fname">Password:</label><br>
+    <input type="text" id="fname" value=""><br><br>
+    <input type="submit" value="Submit">
+    <br>
+    <button type="button" onclick="alert('ඞඞඞඞඞAMONGUSඞඞඞඞඞ')">Don't</button>
+    
+    </div>
+    
+  </form>
