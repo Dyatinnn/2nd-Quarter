@@ -13,7 +13,7 @@
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: Franklin Gothic Medium;
 }
 
 p {
@@ -50,6 +50,7 @@ nav {
     display: flex;
     height: 3.6rem;
     width: 2000px;
+    padding: 2px;
     align-items: center;
     background: rgba(14, 14, 14, 0.61);
     border-bottom: 2px solid rgb(0, 255, 21);
@@ -183,7 +184,6 @@ nav .icon-links {
 }
 
 #hero p {
-    margin-top: 1rem;
     font-size: 1.2rem;
     width: 100%;
     text-shadow: 0 0 0.6rem #111;
@@ -224,10 +224,10 @@ nav .icon-links {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 1.2rem;
     text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Franklin Gothic Medium;
 }
 
 .top-products {
@@ -260,25 +260,25 @@ nav .icon-links {
 }
 
 .products .incel.one {
-   background-color: rgba(48, 47, 47, 0.767);
+    background-image: url("https://www.apple.com/v/ipad-pro/al/images/overview/hero/hero_combo__fcqcc3hbzjyy_large.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .products .incel.mango {
-    background-color: rgba(48, 47, 47, 0.767);
+    background-image: url("https://i.ebayimg.com/images/g/Yc4AAOSwx9ZawmaT/s-l1600.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .products .incel.peach {
-    background-color: rgba(48, 47, 47, 0.767);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt9DkYX5QQ-PUI0mrkHA5FG0UBAhzxUWSujw&usqp=CAU");
     background-size: cover;
     background-position: center;
 }
 
 .products .incel.strawberry {
-    background-color: rgba(48, 47, 47, 0.767);
+    background-image: url("https://www.apple.com/v/iphone-14-pro/c/images/meta/iphone-14-pro_overview__e414c54gtu6a_og.png");
     background-size: cover;
     background-position: center;
 }
@@ -296,14 +296,14 @@ nav .icon-links {
     color: rgb(145, 250, 9);
     font-size: 1.8rem;
     font-weight: bold;
-    text-shadow: 0 0 0.2rem #444;
+    text-shadow: 0 0 0.2rem rgb(0, 0, 0);
 }
 
 .products .incel .incel-text span {
     color: rgb(255, 255, 255);
     font-size: 2.8rem;
     font-weight: bold;
-    text-shadow: 0 0 0.2rem #444;
+    text-shadow: 0 0 0.2rem rgb(0, 0, 0);
 }
 
 .products .incel .incel-text p {
@@ -318,6 +318,7 @@ nav .icon-links {
 
 .featured-product-wrap {
     padding-top: 3.6rem;
+    padding: 90px;
 }
 
 .featured-products {
@@ -349,7 +350,7 @@ nav .icon-links {
 }
 
 .product-wrap:hover {
-    -webkit-box-shadow: 0.6rem 0.6rem 1rem rgb(94, 255, 0);
+    -webkit-box-shadow: 0.6rem 0.6rem 1rem rgb(24, 225, 0);
     box-shadow: 0.6rem 0.6rem 1rem rgb(30, 255, 0);
 }
 
@@ -357,7 +358,6 @@ nav .icon-links {
     position: relative;
     width: 100%;
     height: 55%;
-    
     border-radius: 0.2rem 0.2rem 0.6rem 0.6rem;
 }
 
@@ -397,7 +397,7 @@ nav .icon-links {
 .product-description .price {
     margin-top: 0.6rem;
     text-align: center;
-    color: #ffffff;
+    color: #dae6d5;
     font-size: 22px;
     font-weight: 600;
 }
@@ -416,17 +416,29 @@ nav .icon-links {
     -ms-flex-pack: center;
     justify-content: center;
     cursor: pointer;
+    text-decoration:none;
 }
 
 .product-description .add-to-cart-btn p {
     color: rgb(0, 0, 0);
     font-size: 1rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Franklin Gothic Medium;
     text-align: center;
     text-decoration: none;
     padding: 0.6rem 0.8rem;
     border-radius: 0.2rem;
     background: #67ff20;
+}
+
+.product-name {
+text-align: center;
+padding: 12px;
+font-size: 21px;
+
+}
+
+.icon-cart-plus {
+    margin: auto;
 }
 
 
@@ -438,13 +450,11 @@ nav .icon-links {
     <div class="home">
         <nav class="navbar">
             <div class="logo">
-                <a href="#">  Incel | </Incel></a>
+                <a href="https://www.merriam-webster.com/dictionary/emporium">  Tech Emporium | </Incel></a>
             </div>
 <br>
             <ul class="nav-items">
                 <li><a href="#top">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
                 <li><a href="#products">Products</a></li>
                
             </ul>
@@ -459,14 +469,14 @@ nav .icon-links {
 
         <!-- hero yessir -->
         <div id="hero">
-            <h1>Abandon all hope ye who enter here</h1>
-            <p>activity c aaaaaaa waduhel.</p>
+            <h1 style="font-size: 114px; font-family: 'Franklin Gothic Medium';">Tech Emporium</h1>
+            <p style="font-size: 24px; font-family: 'Franklin Gothic Medium';">A Shop For Every Gamers.</p>
             <div class="button">
                 <div class="btn">
-                    <a href="#">Explore</a>
+                    <a href="#products">Explore</a>
                 </div>
                 <div class="btn">
-                    <a href="#">Shop Now</a>
+                    <a href="#product-description">Shop Now</a>
                 </div>
             </div>
         </div>
@@ -476,14 +486,14 @@ nav .icon-links {
     <div class="top-products">
         <div class="section-wrap">
             <div class="sub-section-title">
-                <h2 style="color: rgb(255, 255, 255);">Top products</h2>
+                <h2 style="color: rgb(255, 255, 255); padding: 22px; font-size: 43px; color: #00ff15c2;">Top products</h2>
              
             </div>
 
             <div class="products">
                 <div class="incel one">
                     <div class="incel-text">
-                        <h2>one</h2>
+                        <h2>Ipad Pro</h2>
                         <span>10,000+</span>
                         <p>Sales</p>
                     </div>
@@ -491,7 +501,7 @@ nav .icon-links {
 
                 <div class="incel mango">
                     <div class="incel-text">
-                        <h2>two</h2>
+                        <h2>Nokia 3310</h2>
                         <span>9000+</span>
                         <p>Sales</p>
                     </div>
@@ -499,7 +509,7 @@ nav .icon-links {
 
                 <div class="incel peach">
                     <div class="incel-text">
-                        <h2>three</h2>
+                        <h2>PS5</h2>
                         <span>2220+</span>
                         <p>Sales</p>
                     </div>
@@ -507,7 +517,7 @@ nav .icon-links {
 
                 <div class="incel strawberry">
                     <div class="incel-text">
-                        <h2>four</h2>
+                        <h2>Iphone 14 pro</h2>
                         <span>1000+</span>
                         <p>Sales</p>
                     </div>
@@ -544,12 +554,12 @@ nav .icon-links {
                                     <span class="f-product-price">₱18,899</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱15,999</span>
+                                    <span class="f-cur-price"><br>Now ₱15,999</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -572,12 +582,12 @@ nav .icon-links {
                                     <span class="f-product-price">₱25,599</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱25,000</span>
+                                    <span class="f-cur-price"><br>Now ₱25,000</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -592,19 +602,19 @@ nav .icon-links {
                             <p><span class="discount">1</span>% off</p>
                         </div>
                         <div class="product-description">
-                            <p class="product-name">Pinlles Computer</p>
+                            <p class="product-name">Pinellas Computer</p>
                             <p class="price">
                                 <strong>Price:</strong>
                                 <del>
                                     <span class="f-product-price">₱30,999</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱30,000</span>
+                                    <span class="f-cur-price"><br>Now ₱30,000</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -627,21 +637,21 @@ nav .icon-links {
                                     <span class="f-product-price">₱ 17,780</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱ 16,000</span>
+                                    <span class="f-cur-price"><br>Now ₱ 16,000</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                                 </ins>
                                 
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="product-wrap Gusion Venom T-Shirt">
                         <div class="product-img">
-                            <img src="https://m.media-amazon.com/images/I/41+XZA4rYzL._AC_SY580_.jpg" alt="img">
+                            <img src="https://image.cnbcfm.com/api/v1/image/106539910-1589577114154-Predator_Thronos_Air_01_recommended.jpg?v=1589577146" alt="img">
                         </div>
 
                         <div class="product-icons">
@@ -650,19 +660,19 @@ nav .icon-links {
                         </div>
 
                         <div class="product-description">
-                            <p class="product-name">Drone</p>
+                            <p class="product-name">Predator "Thronos"</p>
                             <p class="price">
                                 <strong>Price:</strong>
                                 <del>
-                                    <span class="f-product-price">₱49,490</span>
+                                    <span class="f-product-price">₱1,29,490</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱47,999</span>
+                                    <span class="f-cur-price"><br>Now ₱1,11,999</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -685,12 +695,12 @@ nav .icon-links {
                                     <span class="f-product-price">₱4,650</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱4,000</span>
+                                    <span class="f-cur-price"><br>Now ₱4,000</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -712,12 +722,12 @@ nav .icon-links {
                                     <span class="f-product-price">1,499</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now 899</span>
+                                    <span class="f-cur-price"><br>Now 899</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -740,12 +750,12 @@ nav .icon-links {
                                     <span class="f-product-price">₱999</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱999</span>
+                                    <span class="f-cur-price"><br>Now ₱999</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -768,12 +778,12 @@ nav .icon-links {
                                     <span class="f-product-price">₱55,990</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱50,999</span>
+                                    <span class="f-cur-price"><br>Now ₱50,999</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -796,12 +806,12 @@ nav .icon-links {
                                     <span class="f-product-price">₱63,995</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱60,999</span>
+                                    <span class="f-cur-price"><br>Now ₱60,999</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -824,12 +834,12 @@ nav .icon-links {
                                     <span class="f-product-price">₱22,049</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱20,999</span>
+                                    <span class="f-cur-price"><br>Now ₱20,999</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -852,12 +862,12 @@ nav .icon-links {
                                     <span class="f-product-price">₱28,000</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱25,999</span>
+                                    <span class="f-cur-price"><br>Now ₱25,999</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -880,19 +890,19 @@ nav .icon-links {
                                     <span class="f-product-price">₱109,990.00</span>Php
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱100,000.00
+                                    <span class="f-cur-price"><br>Now ₱100,000.00
                                         </span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="product-wrap">
                         <div class="product-img">
-                            <img src="https://cdn.shopify.com/s/files/1/0355/8296/7943/products/https_3A_2F_2Fhybrismediaprod.blob.core.windows.net_2Fsys-master-phoenix-images-container_2Fh40_2Fhfa_2F9398892560414_2F2-220510-viper-v2-pro-white-1500x1000-4_800x.jpg?v=1654475476" alt="img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBvRAi38RVq6sLHggsMDUoBhnsjTTSlHmCqQ&usqp=CAU" alt="img">
                         </div>
 
                         <div class="product-icons">
@@ -901,19 +911,135 @@ nav .icon-links {
                         </div>
 
                         <div class="product-description">
-                            <p class="product-name">Razer Viper v2 Pro</p>
+                            <p class="product-name">Apple Watch</p>
                             <p class="price">
                                 <strong>Price:</strong>
                                 <del>
-                                    <span class="f-product-price">₱8,990</span>
+                                    <span class="f-product-price">₱52,990</span>
                                 </del>
                                 <ins>
-                                    <span class="f-cur-price">Now ₱8,000</span>
+                                    <span class="f-cur-price"><br>Now ₱51,000</span>
                                 </ins>
                                 <span class="f-product-unit"></span>
                             </p>
                             <div class="add-to-cart-btn">
-                                <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-wrap">
+                                <div class="product-img">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQLhbwUmlZa_kizPhhg8hfsHjgyBN_3BACqQ&usqp=CAU" alt="img">
+                                </div>
+        
+                                <div class="product-icons">
+                                    <div class="add-to-favorite"><span class="icon-heart"></span></div>
+                                    <p><span class="discount">2</span>% off</p>
+                                </div>
+        
+                                <div class="product-description">
+                                    <p class="product-name">Apple Air Pods</p>
+                                    <p class="price">
+                                        <strong>Price:</strong>
+                                        <del>
+                                            <span class="f-product-price">₱8,490</span>
+                                        </del>
+                                        <ins>
+                                            <span class="f-cur-price"><br>Now ₱8,000</span>
+                                        </ins>
+                                        <span class="f-product-unit"></span>
+                                    </p>
+                                    <div class="add-to-cart-btn">
+                                              <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
+        
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-wrap">
+                                        <div class="product-img">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU-0x6DM-wy9BobLOH271HRKx9-OOtyakYPg&usqp=CAU" alt="img">
+                                        </div>
+                
+                                        <div class="product-icons">
+                                            <div class="add-to-favorite"><span class="icon-heart"></span></div>
+                                            <p><span class="discount">2</span>% off</p>
+                                        </div>
+                
+                                        <div class="product-description">
+                                            <p class="product-name">Power Bank</p>
+                                            <p class="price">
+                                                <strong>Price:</strong>
+                                                <del>
+                                                    <span class="f-product-price">₱8,390</span>
+                                                </del>
+                                                <ins>
+                                                    <span class="f-cur-price"><br>Now ₱7,000</span>
+                                                </ins>
+                                                <span class="f-product-unit"></span>
+                                            </p>
+                                            <div class="add-to-cart-btn">
+                                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
+                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-wrap">
+                                                <div class="product-img">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwGOJ98TFAyou63cpB1Oc9ggf-xc4GTWVNig&usqp=CAU" alt="img">
+                                                </div>
+                        
+                                                <div class="product-icons">
+                                                    <div class="add-to-favorite"><span class="icon-heart"></span></div>
+                                                    <p><span class="discount">2</span>% off</p>
+                                                </div>
+                        
+                                                <div class="product-description">
+                                                    <p class="product-name">Nintendo Switch</p>
+                                                    <p class="price">
+                                                        <strong>Price:</strong>
+                                                        <del>
+                                                            <span class="f-product-price">₱38,990</span>
+                                                        </del>
+                                                        <ins>
+                                                            <span class="f-cur-price"><br>Now ₱37,200</span>
+                                                        </ins>
+                                                        <span class="f-product-unit"></span>
+                                                    </p>
+                                                    <div class="add-to-cart-btn">
+                                                              <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
+                        
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-wrap">
+                                                        <div class="product-img">
+                                                            <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt7msiZuUx_QG__8tuXk24rsFANA1mSo5t3g&usqp=CAU" alt="img">
+                                                        </div>
+                                
+                                                        <div class="product-icons">
+                                                            <div class="add-to-favorite"><span class="icon-heart"></span></div>
+                                                            <p><span class="discount">2</span>% off</p>
+                                                        </div>
+                                                            
+                                                        <div class="product-description">
+                                                            <p class="product-name">Drone</p>
+                                                            <p class="price">
+                                                                <strong>Price:</strong>
+                                                                <del>
+                                                                    <span class="f-product-price">₱18,990</span>
+                                                                </del>
+                                                                <ins>
+                                                                    <span class="f-cur-price"><br>Now ₱17,520</span>
+                                                                </ins>
+                                                                <span class="f-product-unit"></span>
+                                                            </p>
+                                                            <div class="add-to-cart-btn">
+                                                                      <p><span class="icon-cart-plus"></span><a href="#">Add to Cart</a></p>
+                                
+                                                                                   
+                                      
                             </div>
                         </div>
                     </div>
@@ -922,9 +1048,6 @@ nav .icon-links {
         </div>
     </div>
   
-
-
-
 </body>
-
+<footer><p style="text-align: center; padding: 20px; font-size: 15px;">@Webpage by Group INCEL |</p></footer>
 </html>
